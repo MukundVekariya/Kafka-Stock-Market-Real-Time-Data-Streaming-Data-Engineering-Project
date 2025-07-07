@@ -23,6 +23,14 @@ The dataset used for this project is available at:
 
 ## Kafka Setup Instructions
 
+### Kafka version - 3.7.2
+```sh
+wget https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz
+
+sudo yum install java-1.8.0-openjdk
+cd kafka_2.12-3.7.2
+```
+
 ### Start Zookeeper
 ```sh
 bin/zookeeper-server-start.sh config/zookeeper.properties
@@ -47,6 +55,5 @@ bin/kafka-console-producer.sh --topic demo_test --bootstrap-server {your IP addr
 ### Start Consumer
 Duplicate the session & enter in a new console:
 ```sh
-cd kafka_2.12-3.7.2
 bin/kafka-console-consumer.sh --topic demo_test --bootstrap-server {your IP address here}:9092
 ```
