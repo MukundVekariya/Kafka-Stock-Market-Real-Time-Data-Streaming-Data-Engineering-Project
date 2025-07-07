@@ -27,7 +27,7 @@ The dataset used for this project is available at:
 ```sh
 wget https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz
 
-sudo yum install java-1.8.0-openjdk
+sudo yum install java-1.8.0-openjdk  # Install Java
 cd kafka_2.12-3.7.2
 ```
 
