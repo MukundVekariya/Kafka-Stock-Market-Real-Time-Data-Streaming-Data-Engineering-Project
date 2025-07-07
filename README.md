@@ -23,7 +23,7 @@ The dataset used for this project is available at:
 
 ## Kafka Setup Instructions
 
-### Kafka version - 3.7.2
+### Install Kafka version - 3.7.2
 ```sh
 wget https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz
 
